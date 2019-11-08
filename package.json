@@ -1,0 +1,60 @@
+{
+  "name": "banana-i18n-loader",
+  "version": "0.1.0",
+  "description": "webpack loader for banana i18n messages",
+  "main": "src/index.js",
+  "author": {
+    "name": "Santhosh Thottingal",
+    "email": "santhosh.thottingal@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "i18n",
+    "internationalization",
+    "i10n",
+    "localization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santhoshtr/banana-i18n-loader.git"
+  },
+  "dependencies": {
+    "banana-i18n": "^1.1.2",
+    "loader-utils": "^1.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "ecmaVersion": "2015",
+      "sourceType": "module"
+    }
+  },
+  "scripts": {
+    "test": "jest --config test/jest.config.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-runtime": "^6.26.0",
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "memory-fs": "^0.5.0",
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.2"
+  }
+}
